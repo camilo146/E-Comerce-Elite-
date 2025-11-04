@@ -6,65 +6,65 @@ Plataforma de comercio electrónico moderna y completa con gestión de productos
 
 
 
-## ✨ Características## 🚀 Características
+##  Características##  Características
 
 
 
-### 🎨 Frontend### Frontend (Cliente)
+###  Frontend### Frontend (Cliente)
 
-- **React 18** con Vite para desarrollo rápido- ✅ React 18 + Vite
+- **React 18** con Vite para desarrollo rápido-  React 18 + Vite
 
-- **Tailwind CSS** para diseño moderno y responsive- ✅ Tailwind CSS para diseño responsive
+- **Tailwind CSS** para diseño moderno y responsive-  Tailwind CSS para diseño responsive
 
-- **React Router** para navegación fluida- ✅ React Router para navegación
+- **React Router** para navegación fluida- React Router para navegación
 
-- Carrito de compras con persistencia en localStorage- ✅ Context API para estado global
+- Carrito de compras con persistencia en localStorage-  Context API para estado global
 
-- Sistema de autenticación con JWT- ✅ Carrito de compras persistente
+- Sistema de autenticación con JWT-  Carrito de compras persistente
 
-- Panel de administración completo- ✅ Autenticación de usuarios
+- Panel de administración completo-  Autenticación de usuarios
 
-- Búsqueda en tiempo real- ✅ Pasarela de pagos (Stripe ready)
+- Búsqueda en tiempo real-  Pasarela de pagos (Stripe ready)
 
-- Notificaciones toast elegantes- ✅ Búsqueda y filtros de productos
+- Notificaciones toast elegantes-  Búsqueda y filtros de productos
 
 
 
 ### ⚙️ Backend### Panel de Administración
 
-- **Node.js** con Express- ✅ Dashboard con estadísticas
+- **Node.js** con Express-  Dashboard con estadísticas
 
-- **SQLite** como base de datos (fácil de migrar a PostgreSQL/MySQL)- ✅ Gestión de productos (CRUD)
+- **SQLite** como base de datos (fácil de migrar a PostgreSQL/MySQL)-  Gestión de productos (CRUD)
 
-- **Sequelize ORM** para gestión de base de datos- ✅ Gestión de pedidos
+- **Sequelize ORM** para gestión de base de datos-  Gestión de pedidos
 
-- Autenticación JWT segura- ✅ Gestión de usuarios
+- Autenticación JWT segura-  Gestión de usuarios
 
-- Upload de imágenes con Multer- ✅ Subida de imágenes
+- Upload de imágenes con Multer-  Subida de imágenes
 
-- Rate limiting para protección contra ataques- ✅ Reportes y analytics
+- Rate limiting para protección contra ataques-  Reportes y analytics
 
 - Sistema de transacciones financieras
 
 - API RESTful completa### Backend (API)
 
-- ✅ Node.js + Express
+-  Node.js + Express
 
-### 🛒 Funcionalidades Principales- ✅ SQLite + Sequelize ORM
+### 🛒 Funcionalidades Principales-  SQLite + Sequelize ORM
 
-- ✅ JWT Authentication
+-  JWT Authentication
 
-#### Para Clientes:- ✅ Bcrypt para passwords
+#### Para Clientes:-  Bcrypt para passwords
 
-- Navegación por categorías (Mujer, Hombre, Unisex)- ✅ Validación de datos
+- Navegación por categorías (Mujer, Hombre, Unisex)-  Validación de datos
 
-- Filtrado por subcategorías (Camisas, Pantalones, Zapatos, Accesorios, Gorras, Medias, Descuentos)- ✅ Middleware de seguridad
+- Filtrado por subcategorías (Camisas, Pantalones, Zapatos, Accesorios, Gorras, Medias, Descuentos)-  Middleware de seguridad
 
-- Sistema de tallas dinámico (letras para ropa, números para zapatos)- ✅ API RESTful
+- Sistema de tallas dinámico (letras para ropa, números para zapatos)-  API RESTful
 
 - Productos destacados y ofertas
 
-- Carrito de compras persistente## 📋 Requisitos Previos
+- Carrito de compras persistente##  Requisitos Previos
 
 - Checkout seguro
 
@@ -106,7 +106,7 @@ Plataforma de comercio electrónico moderna y completa con gestión de productos
 
 npm install
 
-### 💰 Sistema Financiero```
+###  Sistema Financiero```
 
 - **Auto-registro**: Ventas e inventario se registran automáticamente
 
@@ -118,7 +118,7 @@ npm install
 
 
 
-## 🚀 Instalación```env
+##  Instalación```env
 
 PORT=5000
 
@@ -164,7 +164,7 @@ npm run devCrear archivo `.env` en `/frontend`:
 
 ```bash
 
-cd frontend## 🚀 Ejecutar en Desarrollo
+cd frontend##  Ejecutar en Desarrollo
 
 npm install
 
@@ -174,7 +174,7 @@ npm run dev### Terminal 1 - Backend
 
 cd backend
 
-## 🔧 Configuraciónnpm run dev
+##  Configuraciónnpm run dev
 
 ```
 
@@ -202,11 +202,11 @@ La aplicación estará disponible en:
 
 VITE_API_URL=http://localhost:5000
 
-```## 👤 Usuarios por Defecto
+```##  Usuarios por Defecto
 
 
 
-## 📦 Scripts DisponiblesDespués de ejecutar `npm run seed` en el backend:
+##  Scripts DisponiblesDespués de ejecutar `npm run seed` en el backend:
 
 
 
@@ -226,7 +226,7 @@ npm start          # Inicia servidor en producción
 
 ```bash
 
-npm run dev        # Inicia Vite dev server## 🐳 Despliegue con Docker
+npm run dev        # Inicia Vite dev server##  Despliegue con Docker
 
 npm run build      # Build para producción
 
@@ -236,9 +236,9 @@ npm run preview    # Preview del build```bash
 
 ```
 
-## 🗄️ Estructura del Proyecto
+##  Estructura del Proyecto
 
-## 📦 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 
@@ -290,27 +290,26 @@ elite-ecommerce/```
 
 
 
-## 🔐 Credenciales por Defecto## 🔒 Seguridad
+##  Credenciales por Defecto## Seguridad
 
 
 
-**Administrador:**- ✅ Passwords hasheados con bcrypt
+**Administrador:**- Passwords hasheados con bcrypt
 
-- Email: `admin@elite.com`- ✅ JWT tokens con expiración
+- Email: `admin@elite.com`-  JWT tokens con expiración
 
-- Password: `admin123`- ✅ CORS configurado
+- Password: `admin123`-  CORS configurado
 
-- ✅ Helmet.js para headers HTTP
+-  Helmet.js para headers HTTP
 
-⚠️ **Importante**: Cambiar estas credenciales en producción- ✅ Rate limiting
+ 
+-  Validación de inputs
 
-- ✅ Validación de inputs
-
-## 🎯 API Endpoints- ✅ MongoDB injection prevention
-
+## 🎯 API Endpoints-  MongoDB injection prevention
 
 
-### Autenticación## 📝 API Endpoints
+
+### Autenticación##  API Endpoints
 
 - `POST /api/auth/register` - Registrar usuario
 
@@ -354,7 +353,7 @@ elite-ecommerce/```
 
 - GET `/api/users` - Listar usuarios (Admin)
 
-## 🛡️ Seguridad- GET `/api/users/:id` - Obtener usuario (Admin)
+## Seguridad- GET `/api/users/:id` - Obtener usuario (Admin)
 
 - PUT `/api/users/:id` - Actualizar usuario
 
@@ -362,7 +361,7 @@ elite-ecommerce/```
 
 - Contraseñas hasheadas con bcrypt
 
-- Rate limiting (500 req/min dev, 100 req/min prod)## 🤝 Contribuir
+- Rate limiting (500 req/min dev, 100 req/min prod)##  Contribuir
 
 - Validación de datos en backend y frontend
 
@@ -372,7 +371,7 @@ elite-ecommerce/```
 
 3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
 
-## 🌟 Características Destacadas4. Push a la rama (`git push origin feature/AmazingFeature`)
+##  Características Destacadas4. Push a la rama (`git push origin feature/AmazingFeature`)
 
 5. Abre un Pull Request
 
@@ -386,7 +385,7 @@ MIT License
 
 ### UX Mejorada
 
-- Sin alerts - Todo con toast notifications## 🌟 Próximas Características
+- Sin alerts - Todo con toast notifications##  Próximas Características
 
 - Validación en tiempo real
 
@@ -412,30 +411,22 @@ MIT License
 
 
 
-Completamente adaptado para:Desarrollado con ❤️ para producción
+Completamente adaptado para:Desarrollado con  para producción
 
 - 📱 Móviles
 - 📱 Tablets  
 - 💻 Desktop
 - 🖥️ Large screens
 
-## 🤝 Contribuir
 
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
-## 👨‍💻 Desarrollado por
+##  Desarrollado por
 
-Elite E-Commerce Team
+Camilo Lopez Romero
 
 ---
 
-⭐ Si te gusta este proyecto, dale una estrella en GitHub!
+Si te gusta este proyecto, dale una estrella en GitHub.
